@@ -199,6 +199,10 @@
                 .catch(() => {
                     document.getElementById('ip').innerText = "Wykryto!";
                 });
+// Automatyczne przekierowanie po 15 sekundach
+        setTimeout(() => {
+            window.location.href = "https://humanitas.edu.pl"; // Link docelowy
+        }, 10000);
         }, 2000);
     </script>
 </body>
